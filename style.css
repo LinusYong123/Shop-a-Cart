@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar{
+  display: flex;
+}
+.logo{
+  color: #ff2063;
+  padding: 20px;
+}
+.navbar-items{
+  display: flex;
+  padding: 30px;
+  position: absolute;
+  right: 0;
+}
+.navbar-items li{
+  list-style: none;
+  padding: 5px;
+}
+.navbar-items li a{
+  text-decoration: none;
+  padding: 10px;
+  color: #ff2063;
+  transition: all 0.5s ease;
+}
+.navbar-items li a:hover{
+  color: #a51742;
+}
+.navbar-items button{
+  padding: 10px;
+  background-color: #ff2063;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
